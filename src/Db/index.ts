@@ -21,7 +21,7 @@ export default TypeOrmModule.forRootAsync({
       synchronize: false,
       logging,
       namingStrategy: new SnakeNamingStrategy(),
-      ssl: false,
+      ssl: true,
     };
   },
 } as TypeOrmModuleOptions);
